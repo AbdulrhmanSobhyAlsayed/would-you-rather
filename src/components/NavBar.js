@@ -18,12 +18,12 @@ const NavBar = ({ firstName, lastName }) => {
             </NavLink>
           </li> */}
           <li className="nav-item">
-            <NavLink className="nav-link" to="/new-question">
+            <NavLink className="nav-link" to="/add">
               New Question
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/leader-board">
+            <NavLink className="nav-link" to="/leaderboard">
               Leader Board
             </NavLink>
           </li>

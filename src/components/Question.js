@@ -22,7 +22,7 @@ const Question = ({ user, question }) => {
             <h6>{question.optionOne.text}</h6>
             <h6>{question.optionTwo.text}</h6>
           </div>
-          <Link to={`/question/${question.id}`} className="btn btn-primary">
+          <Link to={`/questions/${question.id}`} className="btn btn-primary">
             View
           </Link>
         </div>

@@ -29,11 +29,10 @@ class APP extends Component {
           <Switch>
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />
-            <ProtectedRoute path="/new-question" component={NewQuestion} />
-            <ProtectedRoute path="/leader-board" component={LeaderBoard} />
-            <ProtectedRoute path="/leader-board" component={LeaderBoard} />
+            <ProtectedRoute path="/add" component={NewQuestion} />
+            <ProtectedRoute path="/leaderboard" component={LeaderBoard} />
             <ProtectedRoute path="/logout" component={Logout} />
-            <ProtectedRoute path="/question/:id" component={QuestionDetails} />
+            <ProtectedRoute path="/questions/:id" component={QuestionDetails} />
             <ProtectedRoute path="/not-found" component={NotFound} />
             <ProtectedRoute path="/" exact component={Dashboard} />
             <Redirect to="/not-found" />
